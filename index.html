@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#111111" />
+<title>Dzień Chłopaka | QR</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="noise"></div>
+<main class="app">
+  <header class="hero">
+    <div class="badge">DZIEŃ CHŁOPAKA • QR EDITION</div>
+    <h1>POZNAJ <span>BOHATERA</span></h1>
+    <p>Każda koszulka ma swoją historię. Zeskanuj kod i odkryj człowieka stojącego po drugiej stronie.</p>
+  </header>
+
+  <section class="tabs-section">
+    <div class="section-label"><span>WYBIERZ OSOBĘ</span><small id="counter"></small></div>
+    <div id="tabs" class="tabs"></div>
+  </section>
+
+  <section id="profile" class="profile" aria-live="polite">
+    <div class="profile-top">
+      <div class="avatar" id="avatar">?</div>
+      <div>
+        <div class="eyebrow">ZESKANOWANO PROFIL</div>
+        <h2 id="name">Wybierz osobę</h2>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <article id="description" class="description">Kliknij imię powyżej, aby zobaczyć opis.</article>
+    <button class="share" id="copyBtn">KOPIUJ LINK DO TEGO PROFILU</button>
+  </section>
+
+  <footer>PREZENT Z OKAZJI DNIA CHŁOPAKA • ZRÓB SCREENA, WYŚLIJ, UŚMIECHNIJ SIĘ 😎</footer>
+</main>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
